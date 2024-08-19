@@ -6,6 +6,65 @@
     <title>Clase 1</title>
 </head>
 <body>
-    ¡Hola Mundo!
+   <header>
+    <h1>Mi sitio web</h1>
+     <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+     </nav>
+   </header>
+   <main>
+      <section id="inicio">
+        <h2>Bienvenidos a mi sitio web</h2>
+        <p>Esto es un inicio</p>
+      </section>
+      <section id="sobre-nosotros">
+        <h2>Sobre nosotros</h2>
+        <article></article>
+        <img src="img/descarga.png" alt="" height="50">
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <th>Matias</th>
+                <th>26</th>
+            </tr>
+            <tr>
+                <th>Sol</th>
+                <th>23</th>
+            </tr>
+        </table>
+
+      </section>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="">
+            <label for="nombre">Ingresa tu nombre por favor:</label>
+            <input type="text" id="nombre">
+            <label for="consulta">Ingresa tu consulta:</label>
+            <textarea name="" id="consulta" rows="4" cols="50"></textarea>
+            <label for="pais">Selecciona tu pais:</label>
+            <select name="" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="032">Brasil</option>
+                <option value="">Uruguay</option>
+            </select>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+      </section>
+   </main>
+   <footer>
+    <p>&copy 2024 Mi sitio web. Todos los derechos reservados</p>
+    <ul>
+        <li><a href="">Politica de privacidad</a></li>
+        <li><a href="">Terminos y condiciones</a></li>
+    </ul>
+   </footer>
 </body>
 </html>
