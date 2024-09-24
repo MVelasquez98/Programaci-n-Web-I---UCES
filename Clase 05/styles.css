@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.header{
+    grid-column: 1/2;
+}
+
+.footer{
+    grid-column: 1/4;
+}
